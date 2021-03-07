@@ -25,7 +25,7 @@ public class IsTherePath {
 
     public static void main(String[] args) throws FileNotFoundException {
 
-        File file = new File("/Users/JuanMBruno/Documents/Courses/Coursera/Princenton - Algorithms 2/Undirected Graphs/Graphs/src/com/jmb/applications/dfspaths/ShortestPath.txt");
+        File file = new File("/Users/JuanMBruno/Documents/Courses/Coursera/Princenton - Algorithms 2/Undirected Graphs/Graphs/src/com/jmb/applications/dfspaths/IsTherePath.txt");
 
         //Initialize the graph with the file in txt representing its edges and connections (see graph.png)
         graph = new UGraph(file);
